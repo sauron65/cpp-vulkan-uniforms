@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/main",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [
+        { "name": "VK_ICD_FILENAMES", "value": "./MoltenVK_icd.json" },
+        { "name": "VK_LAYER_PATH", "value": "~/VulkanSDK/1.3.216.0/macOS/share/vulkan/explicit_layer.d" }
+      ],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    }
+  ]
+}

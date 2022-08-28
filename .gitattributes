@@ -1,0 +1,4 @@
+include/vulkan/* linguist-generated=true
+include/GLFW/* linguist-generated=true
+MoltenVK_icd.json linguist-generated=true
+.vscode/settings.json linguist-generated=true

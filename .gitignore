@@ -1,0 +1,10 @@
+*
+!/**/
+!*.*
+*.DS_Store
+*.dSYM
+*.app
+*.app.zip
+*.dmg
+*.spv
+*.exe
